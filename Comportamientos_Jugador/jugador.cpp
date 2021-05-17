@@ -211,9 +211,9 @@ bool ComportamientoJugador::pathFinding_Profundidad(const estado &origen, const 
 	cout << "Calculando plan\n";
 	plan.clear();
 	set<estado,ComparaEstados> Cerrados; // Lista de Cerrados
-	stack<nodo> Abiertos;								 // Lista de Abiertos
+	stack<nodo> Abiertos;				 // Lista de Abiertos
 
-  nodo current;
+  	nodo current;
 	current.st = origen;
 	current.secuencia.empty();
 
@@ -295,9 +295,10 @@ bool ComportamientoJugador::pathFinding_Anchura(const estado &origen, const esta
   while (!Abiertos.empty() and (current.st.fila!=destino.fila or current.st.columna != destino.columna)){
 
 		Abiertos.pop();
-		Cerrados.insert(current.st);
 
-		if(Cerrados.find(current.st) == Cerrados.end()){
+		if(Cerrados.find(current.st) == Cerrados.end()){	// optimización 
+			Cerrados.insert(current.st);
+
             // Generar descendiente de girar a la derecha
             nodo hijoTurnR = current;
             hijoTurnR.st.orientacion = (hijoTurnR.st.orientacion+1)%4;
