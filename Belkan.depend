@@ -1065,3 +1065,537 @@
 	<vector>
 	<queue>
 
+1618510721 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\bin_src\juego.cc
+	<fstream>
+	"motorlib.hpp"
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\motorlib.hpp
+	"motorlib/monitor.hpp"
+	<glui/glui.h>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\motorlib\monitor.hpp
+	"motorlib/entidad.hpp"
+	"motorlib/mapa.hpp"
+	"motorlib/util.h"
+	<glui/glui.h>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\motorlib\entidad.hpp
+	"obj3dlib.hpp"
+	"comportamientolib.hpp"
+	"motorlib/util.h"
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib.hpp
+	"obj3dlib/file_ply_stl.h"
+	"obj3dlib/jpeg_reader/jpg_imagen.hpp"
+	"obj3dlib/objeto3d.h"
+	"obj3dlib/objrevolucion3d.h"
+	"obj3dlib/cubo3d.h"
+	"obj3dlib/cono3d.h"
+	"obj3dlib/cono3dwire.h"
+	"obj3dlib/esfera3d.h"
+	"obj3dlib/toro3d.h"
+	"obj3dlib/tetraedro3d.h"
+	"obj3dlib/octaedro3d.h"
+	"obj3dlib/dodecaedro3d.h"
+	"obj3dlib/icosaedro3d.h"
+	"obj3dlib/luz.hpp"
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\file_ply_stl.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<string>
+	<vector>
+	<assert.h>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\jpeg_reader\jpg_imagen.hpp
+	<string>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\objeto3d.h
+	"obj3dlib/vertex.h"
+	<vector>
+	<GL/gl.h>
+	<string.h>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\vertex.h
+	<stdio.h>
+	<assert.h>
+	<math.h>
+	<iostream>
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\gl\gl.h
+	<GL/glext.h>
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\gl\glext.h
+	<windows.h>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\objrevolucion3d.h
+	"obj3dlib/objeto3d.h"
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\cubo3d.h
+	"obj3dlib/objeto3d.h"
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\cono3d.h
+	"obj3dlib/objeto3d.h"
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\cono3dwire.h
+	"obj3dlib/objeto3d.h"
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\esfera3d.h
+	"obj3dlib/objeto3d.h"
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\toro3d.h
+	"obj3dlib/objeto3d.h"
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\tetraedro3d.h
+	"obj3dlib/objeto3d.h"
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\octaedro3d.h
+	"obj3dlib/objeto3d.h"
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\dodecaedro3d.h
+	"obj3dlib/objeto3d.h"
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\icosaedro3d.h
+	"obj3dlib/objeto3d.h"
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\luz.hpp
+	"obj3dlib/objeto3d.h"
+	<GL/gl.h>
+
+1618510721 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\comportamientolib.hpp
+	"comportamientos/comportamiento.hpp"
+	"../Comportamientos_Jugador/jugador.hpp"
+	"../Comportamientos_Jugador/aldeano.hpp"
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\comportamientos\comportamiento.hpp
+	<vector>
+
+1621204728 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\comportamientos_jugador\jugador.hpp
+	"comportamientos/comportamiento.hpp"
+	<list>
+
+1618510721 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\comportamientos_jugador\aldeano.hpp
+	<chrono>
+	<time.h>
+	<thread>
+	"comportamientos/comportamiento.hpp"
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\motorlib\util.h
+	<cstdlib>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\motorlib\mapa.hpp
+	<GL/glut.h>
+	"motorlib/entidad.hpp"
+	"modelos_belkan.hpp"
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\gl\glu.h
+	<GL/gl.h>
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\modelos_belkan.hpp
+	"modelos/aldeano/aldeano.hpp"
+	"modelos/jugador/jugador3d.hpp"
+	"modelos/arbol/arbol.hpp"
+	"modelos/item/item.hpp"
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\modelos\aldeano\aldeano.hpp
+	"modelos/aldeano/torso.hpp"
+	"obj3dlib.hpp"
+	<string.h>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\modelos\aldeano\torso.hpp
+	"obj3dlib.hpp"
+	"modelos/aldeano/cabeza.hpp"
+	"modelos/aldeano/brazo.hpp"
+	"modelos/aldeano/cintura.hpp"
+	<string.h>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\modelos\aldeano\cabeza.hpp
+	"obj3dlib.hpp"
+	"modelos/retrato.hpp"
+	<string.h>
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\modelos\retrato.hpp
+	"obj3dlib.hpp"
+	<string.h>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\modelos\aldeano\brazo.hpp
+	"obj3dlib.hpp"
+	<string.h>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\modelos\aldeano\cintura.hpp
+	"obj3dlib.hpp"
+	"modelos/aldeano/pierna.hpp"
+	<string.h>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\modelos\aldeano\pierna.hpp
+	"obj3dlib.hpp"
+	<string.h>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\modelos\jugador\jugador3d.hpp
+	"modelos/jugador/quesito.hpp"
+	"modelos/retrato.hpp"
+	"obj3dlib.hpp"
+	<string.h>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\modelos\jugador\quesito.hpp
+	"obj3dlib.hpp"
+	<string.h>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\modelos\arbol\arbol.hpp
+	"obj3dlib.hpp"
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\modelos\item\item.hpp
+	"obj3dlib.hpp"
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\glui\glui.h
+	<cstdlib>
+	<GL/freeglut.h>
+	<GL/openglut.h>
+	<GL/glut.h>
+	<cstdio>
+	<cstring>
+	<string>
+	<vector>
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\gl\openglut.h
+	"openglut_std.h"
+	"openglut_ext.h"
+
+1618510721 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\comportamientos_jugador\aldeano.cpp
+	"../Comportamientos_Jugador/aldeano.hpp"
+	"motorlib/util.h"
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\comportamientos\comportamiento.cpp
+	"comportamientos/comportamiento.hpp"
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\algebra3.cpp
+	"glui/algebra3.h"
+	"glui/glui_internal.h"
+	<cmath>
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\glui\algebra3.h
+	<cmath>
+	<cstdio>
+	<cstdlib>
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\glui\glui_internal.h
+	<cstdio>
+	<cmath>
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\arcball.cpp
+	"glui/arcball.h"
+	<cstdio>
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\glui\arcball.h
+	"glui_internal.h"
+	"algebra3.h"
+	"quaternion.h"
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\glui\quaternion.h
+	"algebra3.h"
+	<cstdio>
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui.cpp
+	"glui/glui_internal_control.h"
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\glui\glui_internal_control.h
+	"glui/glui.h"
+	"glui/glui_internal.h"
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_add_controls.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_bitmap_img_data.cpp
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_bitmaps.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+	<cassert>
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_button.cpp
+	"glui/glui_internal_control.h"
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_checkbox.cpp
+	"glui/glui_internal_control.h"
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_column.cpp
+	"glui/glui_internal_control.h"
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_commandline.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_control.cpp
+	"glui/glui_internal_control.h"
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_edittext.cpp
+	"glui/glui_internal_control.h"
+	<cassert>
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_filebrowser.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+	<sys/types.h>
+	<windows.h>
+	<dirent.h>
+	<unistd.h>
+	<sys/stat.h>
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_list.cpp
+	"glui/glui_internal_control.h"
+	<cmath>
+	<sys/timeb.h>
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_listbox.cpp
+	"glui/glui_internal_control.h"
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_mouse_iaction.cpp
+	"glui/glui_internal_control.h"
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_node.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+
+1618510724 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_panel.cpp
+	"glui/glui_internal_control.h"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_radio.cpp
+	"glui/glui_internal_control.h"
+	<cassert>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_rollout.cpp
+	"glui/glui_internal_control.h"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_rotation.cpp
+	"glui/glui.h"
+	"glui/arcball.h"
+	"glui/algebra3.h"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_scrollbar.cpp
+	"glui/glui_internal_control.h"
+	<cmath>
+	<cassert>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_separator.cpp
+	"glui/glui_internal_control.h"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_spinner.cpp
+	"glui/glui_internal_control.h"
+	<cmath>
+	<cassert>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_statictext.cpp
+	"glui/glui_internal_control.h"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_string.cpp
+	"glui/glui.h"
+	<stdarg.h>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_textbox.cpp
+	"glui/glui_internal_control.h"
+	<cmath>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_translation.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+	"glui/algebra3.h"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_tree.cpp
+	"glui/glui_internal_control.h"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_treepanel.cpp
+	"glui/glui.h"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\glui_window.cpp
+	"glui/glui.h"
+	"glui/glui_internal.h"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\quaternion.cpp
+	"glui/quaternion.h"
+	<cmath>
+	"glui/glui_internal.h"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\glui\viewmodel.cpp
+	"glui/viewmodel.h"
+	"glui/glui.h"
+	<cstdio>
+	<cstdlib>
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\glui\viewmodel.h
+	"algebra3.h"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\modelos\aldeano\aldeano.cpp
+	"modelos/aldeano/aldeano.hpp"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\modelos\aldeano\brazo.cpp
+	"modelos/aldeano/brazo.hpp"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\modelos\aldeano\cabeza.cpp
+	"modelos/aldeano/cabeza.hpp"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\modelos\aldeano\cintura.cpp
+	"modelos/aldeano/cintura.hpp"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\modelos\aldeano\pierna.cpp
+	"modelos/aldeano/pierna.hpp"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\modelos\aldeano\torso.cpp
+	"modelos/aldeano/torso.hpp"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\modelos\arbol\arbol.cpp
+	"modelos/arbol/arbol.hpp"
+	<GL/glut.h>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\modelos\item\item.cpp
+	"modelos/item/item.hpp"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\modelos\jugador\jugador3d.cpp
+	"modelos/jugador/jugador3d.hpp"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\modelos\jugador\quesito.cpp
+	"modelos/jugador/quesito.hpp"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\modelos\retrato.cpp
+	"modelos/retrato.hpp"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\motorlib\entidad.cpp
+	"motorlib/entidad.hpp"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\motorlib\mapa.cpp
+	"motorlib/mapa.hpp"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\motorlib\monitor.cpp
+	"motorlib/monitor.hpp"
+	<fstream>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\motorlib\motor_grafico.cpp
+	"motorlib.hpp"
+	<glui/glui.h>
+	<dirent.h>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\motorlib\motor_juego.cpp
+	"motorlib.hpp"
+	<unistd.h>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\motorlib\util.cpp
+	"motorlib/util.h"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\cono3d.cc
+	"obj3dlib/cono3d.h"
+	<GL/glut.h>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\cono3dwire.cc
+	"obj3dlib/cono3dwire.h"
+	<GL/glut.h>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\cubo3d.cc
+	"obj3dlib/cubo3d.h"
+	<GL/glut.h>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\dodecaedro3d.cc
+	"obj3dlib/dodecaedro3d.h"
+	<GL/glut.h>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\esfera3d.cc
+	"obj3dlib/esfera3d.h"
+	<GL/glut.h>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\file_ply_stl.cc
+	"obj3dlib/file_ply_stl.h"
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\icosaedro3d.cc
+	"obj3dlib/icosaedro3d.h"
+	<GL/glut.h>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\jpeg_reader\jpg_imagen.cpp
+	<stdlib.h>
+	<string>
+	<iostream>
+	"obj3dlib/jpeg_reader/jpg_imagen.hpp"
+	"obj3dlib/jpeg_reader/jpg_readwrite.hpp"
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\jpeg_reader\jpg_readwrite.hpp
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\jpeg_reader\jpg_memsrc.cpp
+	"obj3dlib/jpeg_reader/jpg_jinclude.h"
+	<jpeglib.h>
+	<jerror.h>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\jpeg_reader\jpg_jinclude.h
+	"jconfig.h"
+	<stddef.h>
+	<stdlib.h>
+	<sys/types.h>
+	<stdio.h>
+	<strings.h>
+	<string.h>
+
+1618510721 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\jconfig.h
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\jpeglib.h
+	"jconfig.h"
+	"jmorecfg.h"
+	"jpegint.h"
+	"jerror.h"
+
+1618510722 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\jmorecfg.h
+
+1618510721 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\jerror.h
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\jpeg_reader\jpg_readwrite.cpp
+	"obj3dlib/jpeg_reader/jpg_readwrite.hpp"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<jpeglib.h>
+	<iostream>
+	<fstream>
+	"obj3dlib/jpeg_reader/jpg_memsrc.hpp"
+	<setjmp.h>
+
+1618510723 c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\include\obj3dlib\jpeg_reader\jpg_memsrc.hpp
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\luz.cpp
+	"obj3dlib/luz.hpp"
+	<cmath>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\objeto3d.cc
+	"obj3dlib/objeto3d.h"
+	"obj3dlib/file_ply_stl.h"
+	<iostream>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\objrevolucion3d.cc
+	"obj3dlib/objrevolucion3d.h"
+	"obj3dlib/file_ply_stl.h"
+	<cmath>
+	<GL/glut.h>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\octaedro3d.cc
+	"obj3dlib/octaedro3d.h"
+	<GL/glut.h>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\tetraedro3d.cc
+	"obj3dlib/tetraedro3d.h"
+	<GL/glut.h>
+
+1618510725 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\src\obj3dlib\toro3d.cc
+	"obj3dlib/toro3d.h"
+	<GL/glut.h>
+
+1621246059 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\comportamientos_jugador\jugador.cpp
+	"../Comportamientos_Jugador/jugador.hpp"
+	"motorlib/util.h"
+	<iostream>
+	<cmath>
+	<set>
+	<stack>
+	<vector>
+	<queue>
+
