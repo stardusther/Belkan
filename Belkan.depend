@@ -1589,7 +1589,7 @@
 	"obj3dlib/toro3d.h"
 	<GL/glut.h>
 
-1621246059 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\comportamientos_jugador\jugador.cpp
+1621345157 source:c:\users\esther\documents\universidad\segundo\ia\1 - pr¡cticas\belkan\comportamientos_jugador\jugador.cpp
 	"../Comportamientos_Jugador/jugador.hpp"
 	"motorlib/util.h"
 	<iostream>

@@ -296,7 +296,7 @@ bool ComportamientoJugador::pathFinding_Anchura(const estado &origen, const esta
 
 		Abiertos.pop();
 
-		if(Cerrados.find(current.st) == Cerrados.end()){	// optimización 
+		if(Cerrados.find(current.st) == Cerrados.end()){	// optimización
 			Cerrados.insert(current.st);
 
             // Generar descendiente de girar a la derecha
@@ -373,10 +373,10 @@ bool ComportamientoJugador::pathFinding_CosteUniforme(const estado &origen, cons
 
     while (!cola.empty() and (current.st.fila != destino.fila or current.st.columna != destino.columna)){
         cola.pop();
+        casilla = mapaResultado[current.st.fila][current.st.columna]; // Guardamos la casilla actual
 
         if(explorados.find(current.st) == explorados.end()){ // optimización
             explorados.insert(current.st);  // insertar
-            casilla = mapaResultado[current.st.fila][current.st.columna]; // Guardamos la casilla actual
 
             // Generar desdendiente de girar a la derecha
             nodo hijoTurnR = current;
@@ -416,16 +416,12 @@ bool ComportamientoJugador::pathFinding_CosteUniforme(const estado &origen, cons
 			current = cola.top();
 
 			// Comprobar si tenemos bikini o zapatillas
-            if(casilla == 'K' && current.st.bikini == false){                      // Si tiene bikini no puede tener zapatillas
-                //cout <<"\t CASILLA BIKINI: ";
+            if(mapaResultado[current.st.fila][current.st.columna] == 'K' && !current.st.bikini){
                 current.st.bikini = true;
                 current.st.zapatillas = false;
-                //cout << current.st.bikini;
-            } else if (casilla == 'D' && current.st.zapatillas == false){
-                //cout <<"\t CASILLA ZAPATILLAS: ";
+            } else if (mapaResultado[current.st.fila][current.st.columna] == 'D' && !current.st.zapatillas){
                 current.st.bikini = false;
                 current.st.zapatillas = true;
-                //cout << current.st.zapatillas;
             }
 		}
 	}
